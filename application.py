@@ -1,9 +1,9 @@
 from flask import Flask
-app = Flask(__name__)
+application = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello Render Renton!'
+    return 'Hello Render benton!'
 
 @app.route('/bye')
 def bye():
